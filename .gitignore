@@ -1,2 +1,8 @@
 # Ignore .env files
 .env
+*.csv
+.csv
+.log
+barttorvik/box-score-ids/*.csv
+daily_csvs_*/*.csv
+**.csv
