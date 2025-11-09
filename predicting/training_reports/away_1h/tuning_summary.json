@@ -1,0 +1,16 @@
+{
+  "target": "away_1h",
+  "best_params": {
+    "learning_rate": 0.024232728932808485,
+    "num_leaves": 210,
+    "feature_fraction": 0.9045551296476547,
+    "bagging_fraction": 0.7296890365747699,
+    "bagging_freq": 3,
+    "min_data_in_leaf": 124,
+    "lambda_l1": 2.442322575734447e-07,
+    "lambda_l2": 1.891030945934824e-07,
+    "max_depth": 4
+  },
+  "cv_mae": 5.106984864741481,
+  "tuning_seconds": 197.01763558387756
+}
