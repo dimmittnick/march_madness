@@ -6,3 +6,7 @@
 barttorvik/box-score-ids/*.csv
 daily_csvs_*/*.csv
 **.csv
+venv/
+venv/*
+*/.ipynb_checkpoints
+data/
