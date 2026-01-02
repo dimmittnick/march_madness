@@ -1,0 +1,61 @@
+{
+  "target": "away_1h_win",
+  "params": {
+    "learning_rate": 0.05,
+    "num_leaves": 63,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 1,
+    "min_data_in_leaf": 150,
+    "lambda_l1": 0.001,
+    "lambda_l2": 0.001,
+    "max_depth": -1,
+    "n_jobs": -1,
+    "objective": "binary",
+    "random_state": 42
+  },
+  "cv_metrics_mean": {
+    "Accuracy": {
+      "mean": 0.6791392405063291,
+      "std": 0.009958413769618221
+    },
+    "BalancedAccuracy": {
+      "mean": 0.6392563843825197,
+      "std": 0.012587202497527154
+    },
+    "Precision": {
+      "mean": 0.6083941817217005,
+      "std": 0.014724837728104614
+    },
+    "Recall": {
+      "mean": 0.46777910283057433,
+      "std": 0.039985395468498296
+    },
+    "F1": {
+      "mean": 0.5284792701248906,
+      "std": 0.030563713266364246
+    },
+    "ROC_AUC": {
+      "mean": 0.7244657746247147,
+      "std": 0.010410989785334546
+    },
+    "LogLoss": {
+      "mean": 0.5872423918827793,
+      "std": 0.013608624218519508
+    },
+    "BrierScore": {
+      "mean": 0.20215410290062225,
+      "std": 0.005265620603513234
+    },
+    "PosRate": {
+      "mean": 0.38587341772151895,
+      "std": 0.019167416137069036
+    }
+  },
+  "calibration": {
+    "method": "platt_logistic",
+    "calibrated_oof_logloss": 0.5870845617532315,
+    "calibrated_oof_brier": 0.2021427290959967
+  },
+  "cv_seconds": 17.299862146377563
+}
